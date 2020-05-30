@@ -47,13 +47,13 @@ class Weather {
 
     _showWindSide() {
         if (this.windDeg > 45 && this.windDeg <= 135) {
-            return this.wind = '►  west';
+            return this.wind = '◄  west';
         } else if (this.windDeg > 135 && this.windDeg <= 225) {
-            return this.wind = '▼  south';
+            return this.wind = '▲  south';
         } else if (this.windDeg > 225 && this.windDeg <= 315) {
-            return this.wind = '◄  east';
+            return this.wind = '►  east';
         } else {
-            return this.wind = '▲ north';
+            return this.wind = '▼ north';
         }
     }
 
