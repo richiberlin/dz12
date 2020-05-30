@@ -1,0 +1,21 @@
+{
+  "name": "dz12",
+  "version": "1.0.0",
+  "description": "weather",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richiberlin/dz12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richiberlin/dz12/issues"
+  },
+  "homepage": "https://github.com/richiberlin/dz12#readme"
+}

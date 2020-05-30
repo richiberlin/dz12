@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
+.container .forecast1 {
+    background: rgba(121, 245, 121, 0.75);
+    color: rgb(146, 141, 141);
+    padding: 15px;
+
+}
+.container .forecast5 {
+    background-color:  rgba(146, 141, 141, 0.75);
+
+}
+.placeTime p {
+    margin: 3px auto;
+}
+
+.main {
+    margin: 50px auto;
+    text-align: center;
+}
+.main .temp {
+    font-size: 36px;
+    margin: 0 auto;
+}
+.windInfo {
+    display: flex;
+    justify-content: space-around;
+}
+.forecast5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.forecast5 img {
+    max-width: 30px;
+}
